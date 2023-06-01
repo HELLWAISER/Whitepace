@@ -6,14 +6,16 @@
     box-sizing: border-box;
     text-decoration: none;
     outline: none;
+    font-family: 'Inter', sans-serif;
 }
 
 body {
     background-color: #f1f6fc31;
 }
 
-section, footer {
-   padding: 54px 0; 
+section,
+footer {
+    padding: 54px 0;
 }
 
 h3 {
@@ -30,6 +32,20 @@ p {
     padding: 0 5%;
 }
 
+.btn {
+    background-color: #4f9cf9;
+    color: white;
+    padding: 15px 20px;
+    border-radius: 10px;
+    cursor: pointer;
+    display: inline-block;
+    transition: 0.4s;
+}
+
+.btn:hover {
+    background-color: #3580db;
+}
+
 header {
     background-position: center;
     background-size: cover;
@@ -37,7 +53,8 @@ header {
 }
 
 nav {
-    display: flex; /*um ao lado do outro*/
+    display: flex;
+    /*um ao lado do outro*/
     align-items: center;
     justify-content: space-between;
     padding-top: 30px;
@@ -54,5 +71,25 @@ nav ul a {
     text-transform: uppercase;
     font-size: 14px;
     display: block;
-
 }
+
+.banner {
+    display: flex;
+    justify-content: center;
+}
+
+.banner .banner-text {
+    margin: 150px;
+    text-align: center;
+    padding: 0 90px;
+}
+
+.banner .banner-text {
+   font-size: 90px;
+   color: white;
+}
+
+.banner .banner-text {
+    font-size: 20px;
+    color: #ffffffb7;
+ }
